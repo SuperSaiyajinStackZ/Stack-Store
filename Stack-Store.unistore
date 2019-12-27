@@ -16,11 +16,11 @@
 	},
 	"PKCount (3dsx)": {
 		"info": {
-			"version": "1.0.0",
+			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
 			"iconIndex": 0,
-			"fileSize": 264676
+			"fileSize": 767504
 		},
 		"script": [{
 			"type": "downloadRelease",
@@ -32,11 +32,11 @@
 	},
 	"PKCount (cia)": {
 		"info": {
-			"version": "1.0.0",
+			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
 			"iconIndex": 0,
-			"fileSize": 299968
+			"fileSize": 582592
 		},
 		"script": [{
 			"type": "downloadRelease",
@@ -54,6 +54,22 @@
 			"type": "deleteFile",
 			"file": "sdmc:/PKCount.cia",
 			"message": "Deleting unneded file."
+		}]
+	},
+	"PKCount (nds)": {
+		"info": {
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 0,
+			"fileSize": 719872
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.nds",
+			"output": "sdmc:/PKCount.nds",
+			"message": "Downloading PKCount..."
 		}]
 	}
 }
