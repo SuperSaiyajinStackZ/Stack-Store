@@ -1,0 +1,76 @@
+{
+	"storeInfo": {
+		"title": "Stack-Store",
+		"author": "StackZ",
+		"url": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.unistore",
+		"file": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.unistore",
+		"sheet": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.t3x",
+		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x"
+		"description": "StackZ's app store.\nHere are mostly apps, which I privately did.\nEnjoy browsing through my store! ~StackZ.",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 0
+	},
+	"PKCount (3dsx)": {
+		"info": {
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 0,
+			"fileSize": 767504
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.3dsx",
+			"output": "sdmc:/3ds/PKCount.3dsx",
+			"message": "Downloading PKCount..."
+		}]
+	},
+	"PKCount (cia)": {
+		"info": {
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 0,
+			"fileSize": 582592
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.cia",
+			"output": "sdmc:/PKCount.cia",
+			"message": "Downloading PKCount..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PKCount.cia",
+			"message": "Installing PKCount..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/PKCount.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	"PKCount (nds)": {
+		"info": {
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 0,
+			"fileSize": 719872
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.nds",
+			"output": "sdmc:/PKCount.nds",
+			"message": "Downloading PKCount..."
+		}]
+	}
+}
