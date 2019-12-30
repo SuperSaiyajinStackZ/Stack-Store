@@ -5,7 +5,7 @@
 		"url": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.unistore",
 		"file": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.t3x",
-		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x"
+		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
 		"description": "StackZ's app store.\nHere are mostly apps, which I privately did.\nEnjoy browsing through my store! ~StackZ.",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
