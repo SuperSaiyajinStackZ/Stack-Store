@@ -15,8 +15,10 @@
 		"unselectedColor": "#4D7684",
 		"version": 0
 	},
-	"PKCount (3dsx)": {
+	"storeContent": [
+		{
 		"info": {
+			"title": "PKCount (3dsx)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -31,8 +33,9 @@
 			"message": "Downloading PKCount..."
 		}]
 	},
-	"PKCount (cia)": {
+	{
 		"info": {
+			"title": "PKCount (cia)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -57,8 +60,9 @@
 			"message": "Deleting unneded file."
 		}]
 	},
-	"PKCount (nds)": {
+	{
 		"info": {
+			"title": "PKCount (nds)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -72,5 +76,5 @@
 			"output": "sdmc:/PKCount.nds",
 			"message": "Downloading PKCount..."
 		}]
-	}
+	}]
 }
