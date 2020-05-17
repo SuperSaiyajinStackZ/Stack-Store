@@ -76,5 +76,49 @@
 			"output": "sdmc:/PKCount.nds",
 			"message": "Downloading PKCount..."
 		}]
+	},
+	{
+		"info": {
+			"title": "3DVier (cia)",
+			"version": "0.1.0",
+			"author": "SuperSaiyajinStackZ",
+			"description": "A Connect Four clone for Nintendo 3DS.",
+			"iconIndex": 1,
+			"fileSize": 713664
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DVier",
+			"file": "3DVier.cia",
+			"output": "sdmc:/3DVier.cia",
+			"message": "Downloading 3DVier..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DVier.cia",
+			"message": "Installing 3DVier..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DVier.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DVier (3dsx)",
+			"version": "0.1.0",
+			"author": "SuperSaiyajinStackZ",
+			"description": "A Connect Four clone for Nintendo 3DS.",
+			"iconIndex": 1,
+			"fileSize": 924748
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DVier",
+			"file": "3DVier.3dsx",
+			"output": "sdmc:/3ds/3DVier.3dsx",
+			"message": "Downloading 3DVier..."
+		}]
 	}]
 }
