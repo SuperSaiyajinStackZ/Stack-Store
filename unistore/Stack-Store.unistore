@@ -18,7 +18,7 @@
 	"storeContent": [
 		{
 		"info": {
-			"title": "PKCount (3dsx)",
+			"title": "PKCount (Release 3DSX)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -35,7 +35,7 @@
 	},
 	{
 		"info": {
-			"title": "PKCount (cia)",
+			"title": "PKCount (Release CIA)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -62,7 +62,7 @@
 	},
 	{
 		"info": {
-			"title": "PKCount (nds)",
+			"title": "PKCount (Release NDS)",
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
@@ -79,7 +79,7 @@
 	},
 	{
 		"info": {
-			"title": "3DVier (cia)",
+			"title": "3DVier (Release CIA)",
 			"version": "0.1.0",
 			"author": "SuperSaiyajinStackZ",
 			"description": "A Connect Four clone for Nintendo 3DS.",
@@ -106,7 +106,7 @@
 	},
 	{
 		"info": {
-			"title": "3DVier (3dsx)",
+			"title": "3DVier (Release 3DSX)",
 			"version": "0.1.0",
 			"author": "SuperSaiyajinStackZ",
 			"description": "A Connect Four clone for Nintendo 3DS.",
@@ -119,6 +119,92 @@
 			"file": "3DVier.3dsx",
 			"output": "sdmc:/3ds/3DVier.3dsx",
 			"message": "Downloading 3DVier..."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Release CIA)",
+			"version": "0.1.0",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 1086400
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.cia",
+			"output": "sdmc:/3DEins.cia",
+			"message": "Downloading 3DEins..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing 3DEins..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Release 3DSX)",
+			"version": "0.1.0",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 1351328
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "sdmc:/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins..."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Nightly CIA)",
+			"version": "",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
+			"output": "sdmc:/3DEins.cia",
+			"message": "Downloading 3DEins..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing 3DEins..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Nightly 3DSX)",
+			"version": "",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
+			"output": "sdmc:/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins..."
 		}]
 	}]
 }
