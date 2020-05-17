@@ -6,7 +6,7 @@
 		"file": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.t3x",
 		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
-		"description": "StackZ's app store.\nHere are mostly apps, which I privately did.\nEnjoy browsing through my store! ~StackZ.",
+		"description": "StackZ's app store.\nHere are mostly apps, which I privately did\nor under part of Universal-Team.\n(such as 3DEins, 3DVier, LeafEdit or PKCount.)\nEnjoy browsing through my store! ~StackZ.",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
 		"bgTopColor": "#60A8C0",
@@ -18,63 +18,88 @@
 	"storeContent": [
 		{
 		"info": {
-			"title": "PKCount (Release 3DSX)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
-			"description": "A Pokemon Shiny Encounter Tool.",
+			"title": "3DEins (Release CIA)",
+			"version": "0.1.0",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
 			"iconIndex": 0,
-			"fileSize": 767504
+			"fileSize": 1086400
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
-			"file": "PKCount.3dsx",
-			"output": "sdmc:/3ds/PKCount.3dsx",
-			"message": "Downloading PKCount..."
-		}]
-	},
-	{
-		"info": {
-			"title": "PKCount (Release CIA)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
-			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 0,
-			"fileSize": 582592
-		},
-		"script": [{
-			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
-			"file": "PKCount.cia",
-			"output": "sdmc:/PKCount.cia",
-			"message": "Downloading PKCount..."
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.cia",
+			"output": "sdmc:/3DEins.cia",
+			"message": "Downloading 3DEins..."
 		},
 		{
 			"type": "installCia",
-			"file": "/PKCount.cia",
-			"message": "Installing PKCount..."
+			"file": "/3DEins.cia",
+			"message": "Installing 3DEins..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/PKCount.cia",
+			"file": "sdmc:/3DEins.cia",
 			"message": "Deleting unneded file."
 		}]
 	},
 	{
 		"info": {
-			"title": "PKCount (Release NDS)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
-			"description": "A Pokemon Shiny Encounter Tool.",
+			"title": "3DEins (Release 3DSX)",
+			"version": "0.1.0",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
 			"iconIndex": 0,
-			"fileSize": 719872
+			"fileSize": 1351328
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
-			"file": "PKCount.nds",
-			"output": "sdmc:/PKCount.nds",
-			"message": "Downloading PKCount..."
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "sdmc:/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins..."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Nightly CIA)",
+			"version": "",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
+			"output": "sdmc:/3DEins.cia",
+			"message": "Downloading 3DEins..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing 3DEins..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DEins.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DEins (Nightly 3DSX)",
+			"version": "",
+			"author": "Universal-Team",
+			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"iconIndex": 0,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
+			"output": "sdmc:/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins..."
 		}]
 	},
 	{
@@ -123,88 +148,165 @@
 	},
 	{
 		"info": {
-			"title": "3DEins (Release CIA)",
-			"version": "0.1.0",
+			"title": "LeafEdit (Release CIA)",
+			"version": "0.2.0",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
 			"iconIndex": 2,
-			"fileSize": 1086400
+			"fileSize": 5960640
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Universal-Team/3DEins",
-			"file": "3DEins.cia",
-			"output": "sdmc:/3DEins.cia",
-			"message": "Downloading 3DEins..."
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.cia",
+			"output": "sdmc:/LeafEdit.cia",
+			"message": "Downloading LeafEdit..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DEins.cia",
-			"message": "Installing 3DEins..."
+			"file": "/LeafEdit.cia",
+			"message": "Installing LeafEdit..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/3DEins.cia",
+			"file": "sdmc:/LeafEdit.cia",
 			"message": "Deleting unneded file."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Release 3DSX)",
-			"version": "0.1.0",
+			"title": "LeafEdit (Release 3DSX)",
+			"version": "0.2.0",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
 			"iconIndex": 2,
-			"fileSize": 1351328
+			"fileSize": 5923492
 		},
 		"script": [{
 			"type": "downloadRelease",
-			"repo": "Universal-Team/3DEins",
-			"file": "3DEins.3dsx",
-			"output": "sdmc:/3ds/3DEins.3dsx",
-			"message": "Downloading 3DEins..."
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.3dsx",
+			"output": "sdmc:/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit..."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Nightly CIA)",
+			"title": "LeafEdit (Nightly CIA)",
 			"version": "",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
 			"iconIndex": 2,
 			"fileSize": 0
 		},
 		"script": [{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
-			"output": "sdmc:/3DEins.cia",
-			"message": "Downloading 3DEins..."
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
+			"output": "sdmc:/LeafEdit.cia",
+			"message": "Downloading LeafEdit..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DEins.cia",
-			"message": "Installing 3DEins..."
+			"file": "/LeafEdit.cia",
+			"message": "Installing LeafEdit..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/3DEins.cia",
+			"file": "sdmc:/LeafEdit.cia",
 			"message": "Deleting unneded file."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Nightly 3DSX)",
+			"title": "LeafEdit (Nightly 3DSX)",
 			"version": "",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
+			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
 			"iconIndex": 2,
 			"fileSize": 0
 		},
 		"script": [{
 			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
-			"output": "sdmc:/3ds/3DEins.3dsx",
-			"message": "Downloading 3DEins..."
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
+			"output": "sdmc:/3ds/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit..."
+		}]
+	},
+	{
+		"info": {
+			"title": "LeafEdit (Nightly NDS)",
+			"version": "",
+			"author": "Universal-Team",
+			"description": "An Animal Crossing Save Editor for Nintendo NDS.",
+			"iconIndex": 2,
+			"fileSize": 0
+		},
+		"script": [{
+			"type": "downloadFile",
+			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.nds",
+			"output": "sdmc:/LeafEdit.nds",
+			"message": "Downloading LeafEdit..."
+		}]
+	},
+	{
+		"info": {
+			"title": "PKCount (Release 3DSX)",
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 3,
+			"fileSize": 767504
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.3dsx",
+			"output": "sdmc:/3ds/PKCount.3dsx",
+			"message": "Downloading PKCount..."
+		}]
+	},
+	{
+		"info": {
+			"title": "PKCount (Release CIA)",
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 3,
+			"fileSize": 582592
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.cia",
+			"output": "sdmc:/PKCount.cia",
+			"message": "Downloading PKCount..."
+		},
+		{
+			"type": "installCia",
+			"file": "/PKCount.cia",
+			"message": "Installing PKCount..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/PKCount.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "PKCount (Release NDS)",
+			"version": "0.0.2",
+			"author": "Stack-Team",
+			"description": "A Pokemon Shiny Encounter Tool.",
+			"iconIndex": 3,
+			"fileSize": 719872
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "Stack-Team/PKCount",
+			"file": "PKCount.nds",
+			"output": "sdmc:/PKCount.nds",
+			"message": "Downloading PKCount..."
 		}]
 	}]
 }
