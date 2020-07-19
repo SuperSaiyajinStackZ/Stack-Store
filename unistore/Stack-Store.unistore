@@ -1,12 +1,12 @@
 {
 	"storeInfo": {
 		"title": "Stack-Store",
-		"author": "StackZ",
+		"author": "SuperSaiyajinStackZ",
 		"url": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.unistore",
 		"file": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.t3x",
 		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
-		"description": "StackZ's app store.\nHere are mostly apps, which I privately did\nor under part of Universal-Team.\n(such as 3DEins, 3DVier, LeafEdit or PKCount.)\nEnjoy browsing through my store! ~StackZ.",
+		"description": "StackZ's app store.\nThis version is compatible with older UniStore versions.\nHere are mostly apps, which I privately did\nor under part of Universal-Team.\n(such as 3DEins, 3DVier, 3DZwei, LeafEdit or PKCount.)\nEnjoy browsing through my store! ~StackZ.",
 		"barColor": "#395472",
 		"bgBottomColor": "#262C4D",
 		"bgTopColor": "#60A8C0",
