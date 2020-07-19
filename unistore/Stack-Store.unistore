@@ -19,7 +19,7 @@
 		{
 		"info": {
 			"title": "3DEins (Release CIA)",
-			"version": "0.1.0",
+			"version": "0.2.0",
 			"author": "Universal-Team",
 			"description": "An UNO Cardgame clone for Nintendo 3DS.",
 			"iconIndex": 0,
@@ -46,7 +46,7 @@
 	{
 		"info": {
 			"title": "3DEins (Release 3DSX)",
-			"version": "0.1.0",
+			"version": "0.2.0",
 			"author": "Universal-Team",
 			"description": "An UNO Cardgame clone for Nintendo 3DS.",
 			"iconIndex": 0,
@@ -148,11 +148,55 @@
 	},
 	{
 		"info": {
+			"title": "3DZwei (Release CIA)",
+			"version": "0.1.0",
+			"author": "SuperSaiyajinStackZ",
+			"description": "A memory cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 857024
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DZwei",
+			"file": "3DZwei.cia",
+			"output": "sdmc:/3DZwei.cia",
+			"message": "Downloading 3DZwei..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DZwei.cia",
+			"message": "Installing 3DZwei..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/3DZwei.cia",
+			"message": "Deleting unneded file."
+		}]
+	},
+	{
+		"info": {
+			"title": "3DZwei (Release 3DSX)",
+			"version": "0.1.0",
+			"author": "SuperSaiyajinStackZ",
+			"description": "A memory cardgame clone for Nintendo 3DS.",
+			"iconIndex": 2,
+			"fileSize": 1089812
+		},
+		"script": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DZwei",
+			"file": "3DZwei.3dsx",
+			"output": "sdmc:/3ds/3DZwei.3dsx",
+			"message": "Downloading 3DZwei..."
+		}]
+	},
+	{
+		"info": {
 			"title": "LeafEdit (Release CIA)",
 			"version": "0.2.0",
 			"author": "Universal-Team",
 			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 2,
+			"iconIndex": 3,
 			"fileSize": 5960640
 		},
 		"script": [{
@@ -179,7 +223,7 @@
 			"version": "0.2.0",
 			"author": "Universal-Team",
 			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 2,
+			"iconIndex": 3,
 			"fileSize": 5923492
 		},
 		"script": [{
@@ -196,7 +240,7 @@
 			"version": "",
 			"author": "Universal-Team",
 			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 2,
+			"iconIndex": 3,
 			"fileSize": 0
 		},
 		"script": [{
@@ -222,7 +266,7 @@
 			"version": "",
 			"author": "Universal-Team",
 			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 2,
+			"iconIndex": 3,
 			"fileSize": 0
 		},
 		"script": [{
@@ -238,7 +282,7 @@
 			"version": "",
 			"author": "Universal-Team",
 			"description": "An Animal Crossing Save Editor for Nintendo NDS.",
-			"iconIndex": 2,
+			"iconIndex": 3,
 			"fileSize": 0
 		},
 		"script": [{
@@ -254,7 +298,7 @@
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 3,
+			"iconIndex": 4,
 			"fileSize": 767504
 		},
 		"script": [{
@@ -271,7 +315,7 @@
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 3,
+			"iconIndex": 4,
 			"fileSize": 582592
 		},
 		"script": [{
@@ -298,7 +342,7 @@
 			"version": "0.0.2",
 			"author": "Stack-Team",
 			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 3,
+			"iconIndex": 4,
 			"fileSize": 719872
 		},
 		"script": [{
