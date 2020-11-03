@@ -3,354 +3,291 @@
 		"title": "Stack-Store",
 		"author": "SuperSaiyajinStackZ",
 		"url": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.unistore",
-		"file": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.unistore",
-		"sheet": "sdmc:/3ds/Universal-Updater/stores/Stack-Store.t3x",
+		"file": "Stack-Store.unistore",
+		"sheet": "Stack-Store.t3x",
 		"sheetURL": "https://github.com/SuperSaiyajinStackZ/Stack-Store/raw/master/unistore/Stack-Store.t3x",
-		"description": "StackZ's app store.\nThis version is compatible with older UniStore versions.\nHere are mostly apps, which I privately did\nor under part of Universal-Team.\n(such as 3DEins, 3DVier, 3DZwei, LeafEdit or PKCount.)\nEnjoy browsing through my store! ~StackZ.",
-		"barColor": "#395472",
-		"bgBottomColor": "#262C4D",
-		"bgTopColor": "#60A8C0",
-		"textColor": "#FFFFFF",
-		"selectedColor": "#78C0D8",
-		"unselectedColor": "#4D7684",
-		"version": 0
+		"description": "Here you can find stuff, i am working on.\nFrom StackGames up to Save Editors and Utilities!\nEnjoy browsing through my UniStore called Stack-Store! ~SuperSaiyajinStackZ",
+		"version": 3,
+		"revision": 2
 	},
-	"storeContent": [
-		{
+	"storeContent": [{
 		"info": {
-			"title": "3DEins (Release CIA)",
-			"version": "0.2.0",
+			"title": "3DEins",
+			"version": "v0.2.0",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
-			"iconIndex": 0,
-			"fileSize": 1086400
+			"category": ["StackGames"],
+			"console": ["3DS", "NDS"],
+			"icon_index": 0,
+			"sheet_index": 0,
+			"description": "A Card game for Nintendo 3DS and Nintendo DS(i)!",
+			"last_updated": "2020-06-20",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
+		"Download 3DEins.3dsx": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "%3DSX%/3DEins.3dsx",
+			"message": "Downloading 3DEins.3dsx..."
+		}],
+		"Download 3DEins.cia": [{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/3DEins",
 			"file": "3DEins.cia",
 			"output": "sdmc:/3DEins.cia",
-			"message": "Downloading 3DEins..."
+			"message": "Downloading 3DEins.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DEins.cia",
-			"message": "Installing 3DEins..."
+			"file": "sdmc:/3DEins.cia",
+			"message": "Installing 3DEins.cia..."
 		},
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/3DEins.cia",
-			"message": "Deleting unneded file."
-		}]
-	},
-	{
-		"info": {
-			"title": "3DEins (Release 3DSX)",
-			"version": "0.2.0",
-			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
-			"iconIndex": 0,
-			"fileSize": 1351328
-		},
-		"script": [{
+			"message": "Deleting unneeded file..."
+		}],
+		"Download DSEins.nds": [{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/3DEins",
-			"file": "3DEins.3dsx",
-			"output": "sdmc:/3ds/3DEins.3dsx",
-			"message": "Downloading 3DEins..."
+			"file": "DSEins.nds",
+			"output": "%NDS%/DSEins.nds",
+			"message": "Downloading DSEins.nds..."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Nightly CIA)",
-			"version": "",
-			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
-			"iconIndex": 0,
-			"fileSize": 0
+			"title": "3DElf",
+			"version": "v0.2.0",
+			"author": "SuperSaiyajinStackZ",
+			"category": ["StackGames"],
+			"console": ["3DS"],
+			"icon_index": 1,
+			"sheet_index": 0,
+			"description": "Ein Elfer raus! klon für den Nintendo 3DS.",
+			"last_updated": "2020-10-07",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia",
-			"output": "sdmc:/3DEins.cia",
-			"message": "Downloading 3DEins..."
+		"Download 3DElf.3dsx": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DElf",
+			"file": "3DElf.3dsx",
+			"output": "%3DSX%/3DElf.3dsx",
+			"message": "Downloading 3DElf.3dsx..."
+		}],
+		"Download 3DElf.cia": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DElf",
+			"file": "3DElf.cia",
+			"output": "sdmc:/3DElf.cia",
+			"message": "Downloading 3DElf.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DEins.cia",
-			"message": "Installing 3DEins..."
+			"file": "sdmc:/3DElf.cia",
+			"message": "Installing 3DElf.cia..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/3DEins.cia",
-			"message": "Deleting unneded file."
+			"file": "sdmc:/3DElf.cia",
+			"message": "Deleting unneeded file..."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DEins (Nightly 3DSX)",
-			"version": "",
+			"title": "3DVier",
+			"version": "v0.1.0",
 			"author": "Universal-Team",
-			"description": "An UNO Cardgame clone for Nintendo 3DS.",
-			"iconIndex": 0,
-			"fileSize": 0
+			"category": ["StackGames"],
+			"console": ["3DS"],
+			"icon_index": 2,
+			"sheet_index": 0,
+			"description": "A Connect-Four clone for Nintendo 3DS.",
+			"last_updated": "2020-05-17",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
-			"output": "sdmc:/3ds/3DEins.3dsx",
-			"message": "Downloading 3DEins..."
-		}]
-	},
-	{
-		"info": {
-			"title": "3DVier (Release CIA)",
-			"version": "0.1.0",
-			"author": "SuperSaiyajinStackZ",
-			"description": "A Connect Four clone for Nintendo 3DS.",
-			"iconIndex": 1,
-			"fileSize": 713664
-		},
-		"script": [{
+		"Download 3DVier.3dsx": [{
 			"type": "downloadRelease",
-			"repo": "SuperSaiyajinStackZ/3DVier",
+			"repo": "Universal-Team/3DVier",
+			"file": "3DVier.3dsx",
+			"output": "%3DSX%/3DVier.3dsx",
+			"message": "Downloading 3DVier.3dsx..."
+		}],
+		"Download 3DVier.cia": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DVier",
 			"file": "3DVier.cia",
 			"output": "sdmc:/3DVier.cia",
-			"message": "Downloading 3DVier..."
+			"message": "Downloading 3DVier.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DVier.cia",
-			"message": "Installing 3DVier..."
+			"file": "sdmc:/3DVier.cia",
+			"message": "Installing 3DVier.cia..."
 		},
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/3DVier.cia",
-			"message": "Deleting unneded file."
+			"message": "Deleting unneeded file..."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DVier (Release 3DSX)",
-			"version": "0.1.0",
+			"title": "3DZwei",
+			"version": "v0.1.0",
 			"author": "SuperSaiyajinStackZ",
-			"description": "A Connect Four clone for Nintendo 3DS.",
-			"iconIndex": 1,
-			"fileSize": 924748
-		},
-		"script": [{
-			"type": "downloadRelease",
-			"repo": "SuperSaiyajinStackZ/3DVier",
-			"file": "3DVier.3dsx",
-			"output": "sdmc:/3ds/3DVier.3dsx",
-			"message": "Downloading 3DVier..."
-		}]
-	},
-	{
-		"info": {
-			"title": "3DZwei (Release CIA)",
-			"version": "0.1.0",
-			"author": "SuperSaiyajinStackZ",
+			"category": ["StackGames"],
+			"console": ["3DS"],
+			"icon_index": 3,
+			"sheet_index": 0,
 			"description": "A memory cardgame clone for Nintendo 3DS.",
-			"iconIndex": 2,
-			"fileSize": 857024
+			"last_updated": "2020-07-26",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
+		"Download 3DZwei.3dsx": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/3DZwei",
+			"file": "3DZwei.3dsx",
+			"output": "%3DSX%/3DZwei.3dsx",
+			"message": "Downloading 3DZwei.3dsx..."
+		}],
+		"Download 3DZwei.cia": [{
 			"type": "downloadRelease",
 			"repo": "SuperSaiyajinStackZ/3DZwei",
 			"file": "3DZwei.cia",
 			"output": "sdmc:/3DZwei.cia",
-			"message": "Downloading 3DZwei..."
+			"message": "Downloading 3DZwei.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/3DZwei.cia",
-			"message": "Installing 3DZwei..."
+			"file": "sdmc:/3DZwei.cia",
+			"message": "Installing 3DZwei.cia..."
 		},
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/3DZwei.cia",
-			"message": "Deleting unneded file."
+			"message": "Deleting unneeded file..."
 		}]
 	},
 	{
 		"info": {
-			"title": "3DZwei (Release 3DSX)",
-			"version": "0.1.0",
-			"author": "SuperSaiyajinStackZ",
-			"description": "A memory cardgame clone for Nintendo 3DS.",
-			"iconIndex": 2,
-			"fileSize": 1089812
-		},
-		"script": [{
-			"type": "downloadRelease",
-			"repo": "SuperSaiyajinStackZ/3DZwei",
-			"file": "3DZwei.3dsx",
-			"output": "sdmc:/3ds/3DZwei.3dsx",
-			"message": "Downloading 3DZwei..."
-		}]
-	},
-	{
-		"info": {
-			"title": "LeafEdit (Release CIA)",
-			"version": "0.2.0",
+			"title": "LeafEdit",
+			"version": "v0.2.1",
 			"author": "Universal-Team",
-			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 3,
-			"fileSize": 5960640
+			"category": ["Save Editor"],
+			"console": ["3DS"],
+			"icon_index": 4,
+			"sheet_index": 0,
+			"description": "An AC Save Manager and Save Editor for Nintendo 3DS.",
+			"last_updated": "2020-09-05",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
+		"Download LeafEdit.3dsx": [{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/LeafEdit",
+			"file": "LeafEdit.3dsx",
+			"output": "%3DSX%/LeafEdit.3dsx",
+			"message": "Downloading LeafEdit.3dsx..."
+		}],
+		"Download LeafEdit.cia": [{
 			"type": "downloadRelease",
 			"repo": "Universal-Team/LeafEdit",
 			"file": "LeafEdit.cia",
 			"output": "sdmc:/LeafEdit.cia",
-			"message": "Downloading LeafEdit..."
+			"message": "Downloading LeafEdit.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/LeafEdit.cia",
-			"message": "Installing LeafEdit..."
+			"file": "sdmc:/LeafEdit.cia",
+			"message": "Installing LeafEdit.cia..."
 		},
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/LeafEdit.cia",
-			"message": "Deleting unneded file."
+			"message": "Deleting unneeded file..."
 		}]
 	},
 	{
 		"info": {
-			"title": "LeafEdit (Release 3DSX)",
-			"version": "0.2.0",
-			"author": "Universal-Team",
-			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 3,
-			"fileSize": 5923492
+			"title": "Ludo3DS",
+			"version": "v0.1.0",
+			"author": "SuperSaiyajinStackZ",
+			"category": ["StackGames"],
+			"console": ["3DS"],
+			"icon_index": 5,
+			"sheet_index": 0,
+			"description": "Ein Ludo klon für den Nintendo 3DS.",
+			"last_updated": "2020-10-14",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
+		"Download Ludo3DS.3dsx": [{
 			"type": "downloadRelease",
-			"repo": "Universal-Team/LeafEdit",
-			"file": "LeafEdit.3dsx",
-			"output": "sdmc:/3ds/LeafEdit.3dsx",
-			"message": "Downloading LeafEdit..."
-		}]
-	},
-	{
-		"info": {
-			"title": "LeafEdit (Nightly CIA)",
-			"version": "",
-			"author": "Universal-Team",
-			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 3,
-			"fileSize": 0
-		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia",
-			"output": "sdmc:/LeafEdit.cia",
-			"message": "Downloading LeafEdit..."
+			"repo": "SuperSaiyajinStackZ/Ludo3DS",
+			"file": "Ludo3DS.3dsx",
+			"output": "%3DSX%/Ludo3DS.3dsx",
+			"message": "Downloading Ludo3DS.3dsx..."
+		}],
+		"Download Ludo3DS.cia": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/Ludo3DS",
+			"file": "Ludo3DS.cia",
+			"output": "sdmc:/Ludo3DS.cia",
+			"message": "Downloading Ludo3DS.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/LeafEdit.cia",
-			"message": "Installing LeafEdit..."
+			"file": "sdmc:/Ludo3DS.cia",
+			"message": "Installing Ludo3DS.cia..."
 		},
 		{
 			"type": "deleteFile",
-			"file": "sdmc:/LeafEdit.cia",
-			"message": "Deleting unneded file."
+			"file": "sdmc:/Ludo3DS.cia",
+			"message": "Deleting unneeded file..."
 		}]
 	},
 	{
 		"info": {
-			"title": "LeafEdit (Nightly 3DSX)",
-			"version": "",
-			"author": "Universal-Team",
-			"description": "An Animal Crossing Save Editor for Nintendo 3DS.",
-			"iconIndex": 3,
-			"fileSize": 0
-		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
-			"output": "sdmc:/3ds/LeafEdit.3dsx",
-			"message": "Downloading LeafEdit..."
-		}]
-	},
-	{
-		"info": {
-			"title": "LeafEdit (Nightly NDS)",
-			"version": "",
-			"author": "Universal-Team",
-			"description": "An Animal Crossing Save Editor for Nintendo NDS.",
-			"iconIndex": 3,
-			"fileSize": 0
-		},
-		"script": [{
-			"type": "downloadFile",
-			"file": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.nds",
-			"output": "sdmc:/LeafEdit.nds",
-			"message": "Downloading LeafEdit..."
-		}]
-	},
-	{
-		"info": {
-			"title": "PKCount (Release 3DSX)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
+			"title": "PKCount",
+			"version": "v0.0.2",
+			"author": "SuperSaiyajinStackZ",
+			"category": ["Utility"],
+			"console": ["3DS", "NDS"],
+			"icon_index": 6,
+			"sheet_index": 0,
 			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 4,
-			"fileSize": 767504
+			"last_updated": "2019-12-27",
+			"license": "GNU General Public License v3.0"
 		},
-		"script": [{
+		"Download PKCount.nds": [{
 			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
+			"repo": "SuperSaiyajinStackZ/PKCount",
+			"file": "PKCount.nds",
+			"output": "%NDS%/PKCount.nds",
+			"message": "Downloading PKCount.nds..."
+		}],
+		"Download PKCount.3dsx": [{
+			"type": "downloadRelease",
+			"repo": "SuperSaiyajinStackZ/PKCount",
 			"file": "PKCount.3dsx",
-			"output": "sdmc:/3ds/PKCount.3dsx",
-			"message": "Downloading PKCount..."
-		}]
-	},
-	{
-		"info": {
-			"title": "PKCount (Release CIA)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
-			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 4,
-			"fileSize": 582592
-		},
-		"script": [{
+			"output": "%3DSX%/PKCount.3dsx",
+			"message": "Downloading PKCount.3dsx..."
+		}],
+		"Download PKCount.cia": [{
 			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
+			"repo": "SuperSaiyajinStackZ/PKCount",
 			"file": "PKCount.cia",
 			"output": "sdmc:/PKCount.cia",
-			"message": "Downloading PKCount..."
+			"message": "Downloading PKCount.cia..."
 		},
 		{
 			"type": "installCia",
-			"file": "/PKCount.cia",
-			"message": "Installing PKCount..."
+			"file": "sdmc:/PKCount.cia",
+			"message": "Installing PKCount.cia..."
 		},
 		{
 			"type": "deleteFile",
 			"file": "sdmc:/PKCount.cia",
-			"message": "Deleting unneded file."
-		}]
-	},
-	{
-		"info": {
-			"title": "PKCount (Release NDS)",
-			"version": "0.0.2",
-			"author": "Stack-Team",
-			"description": "A Pokemon Shiny Encounter Tool.",
-			"iconIndex": 4,
-			"fileSize": 719872
-		},
-		"script": [{
-			"type": "downloadRelease",
-			"repo": "Stack-Team/PKCount",
-			"file": "PKCount.nds",
-			"output": "sdmc:/PKCount.nds",
-			"message": "Downloading PKCount..."
+			"message": "Deleting unneeded file..."
 		}]
 	}]
 }
