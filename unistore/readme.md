@@ -9,7 +9,9 @@ Alternatively, you can also now use Universal-Updater v3's QR Code function, to 
 Here are the instructions to do so:
 
 1.) Access the Settings of Universal-Updater, by clicking on the settings icon of the sidebar (The last one).
+
 2.) Go to `Select UniStore`.
+
 3.) Press on the QR Code icon.. you should know, how it looks like.
 
 NOTE: Scan this QR Code there: ![](https://github.com/SuperSaiyajinStackZ/Stack-Store/blob/master/unistore/Stack-Store.png)
