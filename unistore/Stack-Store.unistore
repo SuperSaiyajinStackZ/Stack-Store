@@ -219,7 +219,7 @@
 			"description": "Ein Ludo klon für den Nintendo 3DS.",
 			"last_updated": "2020-12-24",
 			"license": "GNU General Public License v3.0",
-			"releasenotes": "Weihnachts-Release v0.3.0!\n\nWas wurde verändert?\n* Die Spieldaten Struktur wurde überarbeitet und ist nun mit LudoJS.. als auch Ludo3DS kompatibel. Das bedeutet jedoch auch, dass ältere Spieldaten nun ungültig sind.\n\n* Die Benutzeroberfläche wurde etwas überarbeitet. Das Keyboard wird nun nicht mehr benutzt.\n\n* Ein paar Fehlerbehebungen.\n\nViel spaß mit Ludo3DS v0.3.0! ~SuperSaiyajinStackZ",
+			"releasenotes": "Weihnachts-Release v0.3.0!\n\nWas wurde verändert?\n* Die Spieldaten Struktur wurde überarbeitet und ist nun mit LudoJS.. als auch Ludo3DS kompatibel. Das bedeutet jedoch auch, dass ältere Spieldaten nun ungültig sind.\n\n* Die Benutzeroberfläche wurde etwas überarbeitet. Das Keyboard wird nun nicht mehr benutzt.\n\n* Ein paar Fehlerbehebungen.\n\nViel spaß mit Ludo3DS v0.3.0! ~SuperSaiyajinStackZ"
 		},
 		"Download Ludo3DS.3dsx": [{
 			"type": "downloadRelease",
